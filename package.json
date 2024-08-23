@@ -1,0 +1,40 @@
+{
+  "name": "noble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "dev": "npm run build && tsx watch src/index.ts",
+    "start": "npm run build && node dist/index.js",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukaDeveloper/Noble.git"
+  },
+  "keywords": [],
+  "author": "Muka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MukaDeveloper/Noble/issues"
+  },
+  "homepage": "https://github.com/MukaDeveloper/Noble#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "@discordjs/ws": "^1.1.1",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/node": "^20.14.9",
+    "eslint": "^8.57.0",
+    "globals": "^15.8.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  }
+}
